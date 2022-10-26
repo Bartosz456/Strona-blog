@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_galeria.css">
+    <title>Galeria</title>
+
+    <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".miniaturka").click(function(){
+                    $(this).css("width", "50%");
+                    $(this).css("height", "50%");
+                });
+            });
+        </script>
+
+</head>
+
+<body>
+    <div class="miniaturka">
+        <img src="69.png">
+        <div class="opis">Lenovo IdeaPad 3-15</div>
+    </div>
+
+    <div class="miniaturka">
+        <img src="1.png">
+        <div class="opis">ASUS ZenBook 14 Flip</div>
+    </div>
+
+    <div class="miniaturka">
+        <img src="4.png">
+        <div class="opis">ASUS ZenBook 14</div>
+    </div>
+
+    <div class="miniaturka">
+        <img src="3.png">
+        <div class="opis">Acer Aspire 5</div>
+    </div>
+
+</body>
+</html>
