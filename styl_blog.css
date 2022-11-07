@@ -1,108 +1,116 @@
-body
-{
-    background-color: #ffcce0;
-    margin-left: 300px;
-    margin-right: 300px;
+body {
+	background-color: #ffcce0;
+	margin-left: 300px;
+	margin-right: 300px;
 }
-h1
-{
-    color: red;
+h1 {
+	color: red;
 }
-h2
-{
-    color: green;
-    display: block;
-    margin: 20px 0 0 0;
+h2 {
+	color: green;
+	display: block;
+	margin: 20px 0 0 0;
 }
-img
-{
-    float: left;
-    width: 30%;
-    height: 30%;
+img {
+	float: left;
+	width: 30%;
+	height: 30%;
 }
-p
-{
-    font-size: larger;
+p {
+	font-size: larger;
 }
-#a1
-{
-    background-color: yellow;
-    color: blue;
-    padding: 10px;
-    font-size: larger;
-    text-align: center;
+.tresc {
+	margin: auto;
+	width: 1000px;
+	min-height: 250px;
 }
-.tresc
-{
-    margin: auto;
-    width: 1000px;
-    min-height: 250px;
+#p1 {
+	text-align: center;
 }
-#p1
-{
-    text-align: center;
+ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
-ul 
-{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+li a {
+	display: block;
+	float: left;
+	text-align: center;
+	font-size: 1.2em;
+	width: 20%;
+	text-decoration: none;
+	color: white;
+	background-color: #809fff;
+	padding: 10px 15px;
+	margin: 0px 1px 1px 0px;
+	border: 1px solid navy;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 2px 3px gray;
+	-moz-box-shadow: 0px 2px 3px gray;
+	-webkit-box-shadow: 0px 2px 3px gray;
 }
-li a 
-{
-    display: block;
-    float:left;
-    text-align: center;
-    font-size: 1.2em;
-    width: 20%;
-    text-decoration: none;
-    color: white;
-    background-color: #809fff;
-    padding: 10px 15px;
-    margin: 0px 1px 1px 0px;
-    border: 1px solid navy;
-    border-radius: 3px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    box-shadow: 0px 2px 3px gray;
-    -moz-box-shadow: 0px 2px 3px gray;
-    -webkit-box-shadow: 0px 2px 3px gray;
+
+li a:hover {
+	color: blue;
+	background: aqua;
+	border: 1px solid blue;
 }
-    
-li a:hover 
-{
-    color: blue;
-    background: aqua;
-    border: 1px solid blue;
+header {
+	text-align: center;
+	font-size: 150px;
+	color: red;
+	font-family: Brush Script MT;
 }
-header
-{
-    text-align: center;
-    font-size: 150px;
-    color: red;
-    font-family:Brush Script MT;
+footer {
+	text-align: center;
+	padding: 2px;
+	background-color: #808080;
+	color: #e6e6e6;
 }
-footer
-{
-    text-align: center;
-    padding: 2px;
-    background-color: #808080;
-    color:#e6e6e6;
+.nav {
+	text-align: center;
+	position: relative;
+	margin: 50px;
+	min-height: 220px;
 }
-.nav
-{
-    text-align: center;
-    position: relative;
-    margin:50px;
-    min-height: 220px;
+.naglowek {
+	text-align: center;
+	position: relative;
+	float: left;
+	margin: 50px;
+	width: 1000px;
+	min-height: 220px;
 }
-.naglowek
-{
-    text-align: center;
-    position: relative;
-    float: left;
-    margin: 50px;
-    width: 1000px;
-    min-height: 220px;
+.a1 {
+	background-color: yellow;
+	color: blue;
+	padding: 10px;
+	font-size: larger;
+	text-align: center;
+	animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.ti ti-activity-heartbeat {
+    font-size: 50px;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
 }
